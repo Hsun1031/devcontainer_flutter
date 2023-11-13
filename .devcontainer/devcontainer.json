@@ -1,0 +1,15 @@
+{
+	"name": "Flutter ",
+	"dockerFile": "Dockerfile",
+    "customizations": {
+		"vscode": {
+            "extensions": [
+                "dart-code.dart-code",
+                "dart-code.flutter",
+                "streetsidesoftware.code-spell-checker",
+				"eamodio.gitlens"
+            ]
+		}
+	}
+	// "postCreateCommand": "flutter pub get"
+}
