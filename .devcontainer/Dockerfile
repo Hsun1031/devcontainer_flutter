@@ -40,7 +40,6 @@ RUN mv cmdline-tools-latest cmdline-tools
 
 # Settup Android SDK
 RUN yes | ${CMDLINE_TOOLS_PATH}/sdkmanager --licenses --sdk_root=${ANDROID_SDK_PATH}
-RUN mkdir ${ANDROID_SDK_PATH}
 
 WORKDIR ${ANDROID_SDK_PATH}
 
@@ -48,7 +47,7 @@ RUN ${CMDLINE_TOOLS_PATH}/sdkmanager --install "cmdline-tools;latest" --sdk_root
 RUN ${CMDLINE_TOOLS_PATH}/sdkmanager "platform-tools" --sdk_root=${ANDROID_SDK_PATH}
 
 # Settup Android Flutter
-WORKDIR /home/vscode
+WORKDIR $HOME
 
 RUN ${FLUTTER_PATH}/flutter config --android-sdk ${ANDROID_SDK_PATH}
 RUN ${FLUTTER_PATH}/flutter doctor
