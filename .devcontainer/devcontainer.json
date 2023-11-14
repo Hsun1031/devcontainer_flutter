@@ -8,6 +8,7 @@
                 "dart-code.flutter"
             ]
 		}
-	}
+	},
+	"postCreateCommand": "flutter doctor -v"
 	// "postCreateCommand": "flutter pub get"
 }
