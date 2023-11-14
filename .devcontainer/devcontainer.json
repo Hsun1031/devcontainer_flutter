@@ -1,13 +1,11 @@
 {
-	"name": "Flutter ",
+	"name": "Devcontainer For Flutter",
 	"dockerFile": "Dockerfile",
     "customizations": {
 		"vscode": {
             "extensions": [
                 "dart-code.dart-code",
-                "dart-code.flutter",
-                "streetsidesoftware.code-spell-checker",
-				"eamodio.gitlens"
+                "dart-code.flutter"
             ]
 		}
 	}

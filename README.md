@@ -15,7 +15,7 @@ Android command tools version: `10406996` <br>
 Use Dockerfile to build image
 ```json
 {
-    "name": "Flutter ",
+    "name": "Devcontainer For Flutter",
     "dockerFile": "Dockerfile",
     ...
 }
@@ -23,7 +23,7 @@ Use Dockerfile to build image
 Use build image [`hsun1031/devcontainer_flutter:latest`](https://hub.docker.com/r/hsun1031/devcontainer_flutter) from `Docker Hub`
 ```json
 {
-    "name": "Flutter ",
+    "name": "Devcontainer For Flutter",
     "image": "hsun1031/devcontainer_flutter:latest",
     ...
 }
