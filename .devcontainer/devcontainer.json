@@ -1,12 +1,12 @@
 {
 	"name": "Devcontainer For Flutter",
 	"dockerFile": "Dockerfile",
-    "customizations": {
+	"customizations": {
 		"vscode": {
-            "extensions": [
-                "dart-code.dart-code",
-                "dart-code.flutter"
-            ]
+			"extensions": [
+				"dart-code.dart-code",
+				"dart-code.flutter"
+			]
 		}
 	},
 	"postCreateCommand": "flutter doctor -v"
